@@ -1,0 +1,7 @@
+if(mads == "Addition" | "addition" | "a" | "+"):add_func()
+
+def add_func():
+add = input("Enter a number")
+add2 = input("Enter another number")
+sub_answer = add - add2
+print(add_answer)
