@@ -1,0 +1,24 @@
+print("Check out this dope calculator, yo")
+mads = input("would you like to add, subtract, multiply, or divide?")
+
+def div_func():
+div = input("Enter a number")
+div2 = input("Enter a second number")
+div_answer = div / div2
+print(div_answer)
+
+if(mads == "Divide" | "divide" | "d" | "/"):div_func()
+
+def multi_func():
+mutli = input("Enter a number")
+multi2 = input("Enter a second number")
+multi_answer =  multi * multi2
+print(multi_answer)
+
+if(mads == "Multiply" | "multiply" | "m" | "*"):multi_func()
+
+def sub_func():
+sub = input("Enter a number")
+sub2 = input("Enter another number")
+sub_answer = sub - sub2
+print(sub_answer)
