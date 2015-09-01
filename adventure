@@ -1,0 +1,11 @@
+print("Let's go on an adventure!")
+#make this little adventure into your own
+
+print("Nazis are about to invade New York! what should we do?!")
+answer = input("We could scramble the jets or nuke Germany: ").lower()
+if answer == "scramble the jets" or "jets" or "j":
+    print("The Nazis' 1940s-style planes were no match for America's f-16s, and were destroyed immediately")
+elif answer == "nuke germany" or "nuke" or "shit":
+    print("Everyone else is kinda pissed, but no more Nazis!")
+else:
+    print("wrong answer, loser")
